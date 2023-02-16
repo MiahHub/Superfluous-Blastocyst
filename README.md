@@ -1,5 +1,4 @@
-Readme Template
-# readme-generator
+# MVC Blog Applicaiton
 
 ##  Table of Contents
 - [Project description](#Description)
