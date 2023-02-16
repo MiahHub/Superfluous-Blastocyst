@@ -3,17 +3,17 @@
         <h1>{{username}}</h1>
     </div>
     <div class="dashboard-text">
-        <p>Here are your blogs.  You can choose to update or remove them at any time.</p>
+        <p>Welcome to your blog posts!</p>
     </div>
 </div>
 <div>
   <form class="login-form">
   <div class="form-group">
-    <label class="custom-field">Blog title</label>
+    <label class="custom-field">Blog Title</label>
     <input id="blog-name" type="text" class="form-control" >
   </div>
   <div class="form-group">
-    <label class="custom-field">Blog content</label>
+    <label class="custom-field">Blog Content</label>
     <input id="blog-content" type="text" class="form-control">
   </div>
   <button type="submit" class="btn btn-primary custom-btn blog-btn">new</button>
@@ -27,7 +27,7 @@
                 <h1>{{blog.title}}</h1>
             </div>
             <div class="blog-content">
-                <p>{{blog.content}}
+                <p>{{blog.content}}</p>
             </div>
             <div>
                 <p class="blog-date">{{format_date createdAt}}</p>
@@ -37,11 +37,11 @@
             <div>
                 <form id="update-form{{blog.id}}" class="hidden">
                     <div class="form-group">
-                        <label class="custom-field">Title</label>
+                        <label class="custom-field">title</label>
                         <input id="blog-title{{blog.id}}" type="text" class="form-control" >
                     </div>
                     <div class="form-group">
-                        <label class="custom-field">Content</label>
+                        <label class="custom-field">content</label>
                         <input id="blog-content{{blog.id}}" type="text" class="form-control">
                     </div>
                     <button type="submit" data-id="{{blog.id}}" id="saveBtn" class="btn btn-primary custom-btn">save</button>

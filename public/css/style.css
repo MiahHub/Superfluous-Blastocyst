@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(10, 116, 158);
 }
 
 .custom-head {
-  color: rgb(0, 0, 0);
-  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
 }
 
 .custom-nav {
@@ -36,14 +36,14 @@ body {
 .custom-btn {
   margin: 20px;
   background: rgb(0, 0, 0);
-  color: #bec5c9;
+  color: #ffffff;
 }
 .custom-btn:hover {
-  background: rgb(8, 170, 240);
+  background: rgb(103, 203, 247);
   color: rgb(255, 255, 255);
 }
 .form-control {
-  background: hwb(195 17% 81%);
+  background: hwb(0 100% 0%);
   color: rgb(255, 255, 255)
 }
 .blog-card {
@@ -54,28 +54,28 @@ body {
 }
 .blog-container {
   border:hwb(199 15% 4%) 1px solid;
-  border-radius: 9px;
+  border-radius: 5px;
 }
 .blog-header {
   color:rgb(0, 0, 0);
   padding: 10px;
 }
 .blog-author, .blog-content, .blog-comment {
-  color:#bec5c9;
+  color:#ffffff;
 }
 .blog-name {
   font-size: 25px;
 }
 .blog-date {
   font-size: 15px;
-  color:#bec5c9;
+  color:#ffffff;
 }
 .login-header {
   width: 50%;
   margin: auto;
   text-align: center;
-  color:#bec5c9;
-  padding-top: 100px;
+  color:#ffffff;
+  padding-top: 75px;
 }
 a {
   text-decoration: none;
@@ -85,7 +85,7 @@ a {
   width: 50%;
   margin: auto;
   text-align: center;
-  color:#bec5c9;
+  color:#ffffff;
 }
 
 .dashboard-name {
@@ -104,7 +104,7 @@ a {
   width: 50%;
   margin: auto;
   text-align: center;
-  color:#bec5c9;
+  color:#ffffff;
   padding: 50px;
 }
 .comment-head {

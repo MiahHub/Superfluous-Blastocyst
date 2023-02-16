@@ -1,0 +1,12 @@
+[
+  {
+      "title": "Node Blog",
+      "content": "Blog for MVC Project",
+      "user_id": 1
+  },
+  {
+    "title": "Node Blog 2",
+    "content": "2nd Blog for MVC Project",
+    "user_id": 2
+}
+]

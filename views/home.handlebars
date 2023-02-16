@@ -1,4 +1,4 @@
-// use #each for the blogs:
+
 {{#each blogs as |blog|}}
     <div class="blog-card">
         <div class="blog-container">
@@ -10,7 +10,7 @@
                 <p class="blog-name">{{user.username}}</p>
             </div>
             <div class="blog-content">
-                <p>{{blog.content}}
+                <p>{{blog.content}}</p>
             </div>
             <div>
                 <p class="blog-date">{{format_date blog.createdAt}}</p>

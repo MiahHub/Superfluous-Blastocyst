@@ -1,0 +1,12 @@
+[
+  {
+      "comment": "Node Blog Comment",
+      "blog_id": 1,
+      "user_id": 1
+  },
+  {
+    "title": "Node Blog Comment 2",
+    "blog_id": 2, 
+    "user_id": 2
+}
+]
